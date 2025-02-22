@@ -4,7 +4,10 @@ This project uses a YOLO model to detect and track football players in video foo
 
 Example uses 'portugal_vs_spain.mp4' and using  https://github.com/HumanSignal/labelImg, the images were labeled specifically for YOLO model.
 
-You can see the result in 'cr7_tracked.mp4'
+You can see the result in `cr7_tracked.mp4`
+
+# How to use
+execute `extract_frames.py`, then execute `model_test.py`. There will be a result file generated `cr7_tracked.mp4`. Run the file to see marked player.
 
 ## Project Structure
 
